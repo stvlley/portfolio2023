@@ -5,8 +5,8 @@ import AboutPopup from "./popup/AboutPopup";
 const aboutData = {
   firstName: "Stephen",
   lastName: "Talley",
-  bithday: "01.07.1990",
-  address: "Avon str. 22, NYC, USA",
+  bithday: "December 24th",
+  address: "Stafford, VA, USA",
   phn: "+77 022 155 02 02",
   email: "example@gmail.com",
   serviceLists: [
@@ -80,10 +80,7 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>David Parker.</span> I am a graphic designer,
-                  and {`I'm`} very passionate and dedicated to my work. With 20
-                  years experience as a professional a graphic designer, I have
-                  acquired the skills and knowledge.
+                  My name is <span>Stephen Talley.</span> {`I'm`} a software engineer and data analyst with a passion for building high-quality software solutions. With expertise in both full-stack development and data analysis, I bring a unique perspective to every project I work on.
                 </p>
               </div>
               <div className="edrea_tm_button">

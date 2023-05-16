@@ -1,0 +1,97 @@
+{
+    "projects": [
+      {
+        
+        "id": 1,
+        "title": "Project 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt.",
+        "image_url": "https://example.com/project1.png",
+        "demo_url": "https://example.com/project1/demo",
+        "code_url": "https://github.com/your-username/project1",
+        "technologies": [
+          {
+            "name": "HTML",
+            "icon_url": "https://example.com/icons/html.png"
+          },
+          {
+            "name": "CSS",
+            "icon_url": "https://example.com/icons/css.png"
+          },
+          {
+            "name": "JavaScript",
+            "icon_url": "https://example.com/icons/js.png"
+          }
+        ]
+      },
+      {
+        
+        "id": 2,
+        "title": "Project 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt.",
+        "image_url": "https://example.com/project2.png",
+        "demo_url": "https://example.com/project2/demo",
+        "code_url": "https://github.com/your-username/project2",
+        "technologies": [
+          {
+            "name": "Python",
+            "icon_url": "https://example.com/icons/python.png"
+          },
+          {
+            "name": "Django",
+            "icon_url": "https://example.com/icons/django.png"
+          },
+          {
+            "name": "PostgreSQL",
+            "icon_url": "https://example.com/icons/postgresql.png"
+          }
+        ]
+      },
+      {
+        
+        "id": 3,
+        "title": "Project 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt.",
+        "image_url": "https://example.com/project3.png",
+        "demo_url": "https://example.com/project3/demo",
+        "code_url": "https://github.com/your-username/project3",
+        "technologies": [
+          {
+            "name": "React",
+            "icon_url": "https://example.com/icons/react.png"
+          },
+          {
+            "name": "Node.js",
+            "icon_url": "https://example.com/icons/node.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon_url": "https://example.com/icons/mongodb.png"
+          }
+        ]
+      },
+      {
+        
+        "id": 4,
+        "title": "Project 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt.",
+        "image_url": "https://example.com/project3.png",
+        "demo_url": "https://example.com/project3/demo",
+        "code_url": "https://github.com/your-username/project3",
+        "technologies": [
+          {
+            "name": "React",
+            "icon_url": "https://example.com/icons/react.png"
+          },
+          {
+            "name": "Node.js",
+            "icon_url": "https://example.com/icons/node.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon_url": "https://example.com/icons/mongodb.png"
+          }
+        ]
+      }
+    ]
+  }
+  

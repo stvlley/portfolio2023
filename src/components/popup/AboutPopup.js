@@ -5,6 +5,7 @@ import { context } from "../../context/context";
 import { testimonialSlider } from "../../sliderProps";
 import AnimatedText from "../AnimatedText";
 import Modal from "./Modal";
+import Image from "next/image";
 
 const AboutPopup = ({ open, close, aboutData }) => {
   const colorContext = useContext(context);
@@ -17,18 +18,18 @@ const AboutPopup = ({ open, close, aboutData }) => {
           <div className="left_inner">
             <div className="author">
               <div className="avatar_image">
-                <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <Image height='100%' width='100%' src="/logo.svg" alt="logo" />
+                <div className="main" data-img-url="img/logo.svg" />
               </div>
               <div className="short">
                 <h3 className="name">
                   {aboutData.firstName}{" "}
                   <span className="coloring">{aboutData.lastName}</span>
                 </h3>
+              </div>
                 <h3 className="job">
                   <AnimatedText />
                 </h3>
-              </div>
             </div>
             <div className="list">
               <ul>
@@ -56,15 +57,15 @@ const AboutPopup = ({ open, close, aboutData }) => {
                     </span>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
                       <a href="#">{aboutData.phn}</a>
                     </span>
                   </div>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
@@ -73,11 +74,11 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       </a>
                     </span>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="img/about/1.jpg" download>
+              <a href="img/about/stephen_talley_software_engineer.docx" download>
                 Download CV
               </a>
             </div>
@@ -95,10 +96,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  Hello everybody! My name is <span>David Parker.</span> I am a
-                  graphic designer, and {`I'm`} very passionate and dedicated to
-                  my work. With 20 years experience as a professional a graphic
-                  designer, I have acquired the skills and knowledge.
+                  Hello everybody! My name is <span>Stephen Talley.</span> I am a Software Engineer and Systems Analyst with 4+ years of professional IT experience and an extensive background in creating and executing innovative technical solutions for complex business challenges. Proficient in software development, systems analysis, and research and development (R&D), with a focus on driving operational efficiency and delivering high-quality deliverables. Committed to learning the latest tech and remaining programming language agnostic.
                 </p>
               </div>
             </div>

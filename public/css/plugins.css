@@ -14145,14 +14145,19 @@ Primary style
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
-  text-align: left;
+  
+}
+.cd-words-wrapper span {
+  padding: 10px;
 }
 .cd-words-wrapper b {
   display: inline-block;
   position: absolute;
   white-space: nowrap;
+  min-width: 150px;
   left: 0;
   top: 0;
+  text-align: left;
 }
 .cd-words-wrapper b.is-visible {
   position: relative;
