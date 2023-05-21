@@ -35,11 +35,11 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/portfolio/4.jpg"
+                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
                         />
                       </div>
                       <div className="details">
-                        <h3>Delicious Apple</h3>
+                        <h3>{data.projects[0].title}</h3>
                         <span>Detail</span>
                       </div>
                       <a
@@ -55,11 +55,11 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/portfolio/4.jpg"
+                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
                         />
                       </div>
                       <div className="details">
-                        <h3>Delicious Apple</h3>
+                        <h3>{data.projects[1].title}</h3>
                         <span>Detail</span>
                       </div>
                       <a
@@ -75,11 +75,11 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/portfolio/4.jpg"
+                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
                         />
                       </div>
                       <div className="details">
-                        <h3>Delicious Apple</h3>
+                        <h3>{data.projects[2].title}</h3>
                         <span>Detail</span>
                       </div>
                       <a
@@ -96,11 +96,11 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/portfolio/4.jpg"
+                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
                         />
                       </div>
                       <div className="details">
-                        <h3>Delicious Apple</h3>
+                        <h3>{data.projects[3].title}</h3>
                         <span>Detail</span>
                       </div>
                       <a

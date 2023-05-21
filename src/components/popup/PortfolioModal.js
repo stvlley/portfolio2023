@@ -5,8 +5,8 @@ const PortfolioModal = ({ close, open }) => {
     <Modal close={close} open={open}>
       <div className="portfolio_popup_details">
         <div className="top_image">
-          <img src="img/thumbs/4-2.jpg" alt="" />
-          <div className="main" data-img-url="img/portfolio/4.jpg" />
+          <img src="img/thumbs/simple_saying_tees_mockup_1.svg" alt="" />
+          <div className="main" data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup.svg" />
         </div>
         <div className="portfolio_main_title">
           <h3>Delicious Apple</h3>
@@ -46,7 +46,7 @@ const PortfolioModal = ({ close, open }) => {
                 </div>
               </div>
             </li>
-            <li>
+            {/* <li>
               <div className="list_inner">
                 <div className="image">
                   <img src="img/thumbs/4-2.jpg" alt="" />
@@ -69,7 +69,7 @@ const PortfolioModal = ({ close, open }) => {
                   />
                 </div>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
