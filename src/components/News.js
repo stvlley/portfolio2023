@@ -73,6 +73,8 @@ const News = () => {
     setModal(true);
     setActiveData(data[value]);
   };
+
+  console.log("data: ",typeof data)
   return (
     <Fragment>
       <NewsPopup open={modal} close={() => setModal(false)} data={activeData} />
@@ -81,7 +83,7 @@ const News = () => {
           <div className="edrea_tm_news swiper-section">
             <div className="edrea_tm_main_title">
               <h3>
-                Latest <span className="coloring">News</span>
+                Latest <span className="coloring">Blog Posts</span>
               </h3>
             </div>
             <div className="news_list">
@@ -149,3 +151,4 @@ const News = () => {
   );
 };
 export default News;
+

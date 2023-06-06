@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const homeData = {
-  skills: ["Developer", "Analyst", "Consultant"],
+  skills: ["Developer", "Consultant"],
 };
 const AnimatedText = () => {
   const [text, setText] = useState(0);

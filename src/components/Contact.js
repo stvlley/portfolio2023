@@ -1,5 +1,7 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import {BsLinkedin} from 'react-icons/bs'
+
 
 const Contact = () => {
   const [mailData, setMailData] = useState({
@@ -58,32 +60,40 @@ const Contact = () => {
                     <i className="icon-location" />
                     <span>
                       <a href="#" className="href_location">
-                        Avon str. 22, NYC, USA
+                        Stafford, VA, USA
                       </a>
                     </span>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
                       <a href="#">+77 022 155 02 02</a>
                     </span>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">example@gmail.com</a>
+                      <a href="stephentalleyjr@gmail.com">stephentalleyjr@gmail.com</a>
                     </span>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-facebook-rect" />
-                    <span>
-                      <a href="https://www.facebook.com">@facebookNick</a>
+                    <i className="icon-linkedin-3" />
+                          <span>
+                      <a href="https://www.linkedin.com/in/stephen-talley-the-developer/" target="_blank" rel="noreferrer">Stephen Talley</a>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                    <i className="icon-twitter-3" />
+                          <span>
+                      <a href="https://twitter.com/stvlley_" target="_blank" rel="noreferrer">@stvlley_</a>
                     </span>
                   </div>
                 </li>

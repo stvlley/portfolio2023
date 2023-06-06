@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
   return (
     <State>
       <Head>
-        <link rel="icon" type="image/png" href="img/logo.svg" />
+        <link rel="icon" type="image/png" href="img/logo_colored.svg" />
         <title>Stephen Talley | Software Engineer</title>
 
         <link

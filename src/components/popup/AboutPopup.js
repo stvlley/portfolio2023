@@ -13,7 +13,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
 
   return (
     <Modal open={open} close={close}>
-      <div className="about_popup_details">
+      <div className=" about_popup_details">
         <div className="left">
           <div className="left_inner">
             <div className="author">
@@ -65,16 +65,16 @@ const AboutPopup = ({ open, close, aboutData }) => {
                     </span>
                   </div>
                 </li> */}
-                {/* <li>
+                <li>
                   <div className="list_inner">
                     <i className="icon-mail-1" />
-                    <span>
+                    <span className="">
                       <a href={`mailto:${aboutData.email}`}>
                         {aboutData.email}
                       </a>
                     </span>
                   </div>
-                </li> */}
+                </li>
               </ul>
             </div>
             <div className="edrea_tm_button full">

@@ -8,7 +8,7 @@ const aboutData = {
   bithday: "December 24th",
   address: "Stafford, VA, USA",
   phn: "+77 022 155 02 02",
-  email: "example@gmail.com",
+  email: "contact@stephentalley.tech",
   serviceLists: [
     "Website Development",
     "Digital Experience",

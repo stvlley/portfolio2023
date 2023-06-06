@@ -1,76 +1,28 @@
 import Modal from "./Modal";
 
-const PortfolioModal = ({ close, open }) => {
+const PortfolioModal = ({ close, open, data }) => {
+
+  console.log("modal: ",data)
   return (
-    <Modal close={close} open={open}>
-      <div className="portfolio_popup_details">
+    <Modal open={open} close={close}>
+      <div className="news_popup_details">
         <div className="top_image">
-          <img src="img/thumbs/simple_saying_tees_mockup_1.svg" alt="" />
-          <div className="main" data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup.svg" />
+          <img src={data.image_url} alt="" />
+          <div
+            className="main"
+            data-img-url={data && data.image_url}
+            style={{ backgroundImage: `url(${data && data.image_url})` }}
+          />
         </div>
-        <div className="portfolio_main_title">
-          <h3>Delicious Apple</h3>
-          <span>
-            <a href="#">Detail</a>
-          </span>
+        <div className="news_main_title">
+          <h3>{data && data.title}</h3>
+          {/* <span>
+            <a href="#">{data && data.tag}</a>
+          </span> */}
           <div />
         </div>
-
         <div className="text">
-          <p>
-            An apple is an edible fruit produced by an apple tree. Apple trees
-            are cultivated worldwide and are the most widely grown species in
-            the genus Malus. The tree originated in Central Asia, where its wild
-            ancestor, Malus sieversii, is still found today.
-          </p>
-          <p>
-            Apples grown from seed tend to be very different from those of the
-            parents, and the resultant fruit frequently lack desired
-            characteristics. Generally then, apple cultivars are propagated by
-            clonal grafting onto rootstocks. Apple trees grown without
-            rootstocks tend to be larger and much slower to fruit after
-            planting.
-          </p>
-        </div>
-        <div className="additional_images">
-          <ul className="gallery_zoom">
-            <li>
-              <div className="list_inner">
-                <div className="image">
-                  <img src="img/thumbs/4-2.jpg" alt="" />
-                  <div className="main" data-img-url="img/portfolio/7.jpg" />
-                  <a
-                    className="edrea_tm_full_link zoom"
-                    href="img/portfolio/7.jpg"
-                  />
-                </div>
-              </div>
-            </li>
-            {/* <li>
-              <div className="list_inner">
-                <div className="image">
-                  <img src="img/thumbs/4-2.jpg" alt="" />
-                  <div className="main" data-img-url="img/portfolio/8.jpg" />
-                  <a
-                    className="edrea_tm_full_link zoom"
-                    href="img/portfolio/8.jpg"
-                  />
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="list_inner">
-                <div className="image">
-                  <img src="img/thumbs/4-2.jpg" alt="" />
-                  <div className="main" data-img-url="img/portfolio/9.jpg" />
-                  <a
-                    className="edrea_tm_full_link zoom"
-                    href="img/portfolio/9.jpg"
-                  />
-                </div>
-              </div>
-            </li> */}
-          </ul>
+          {data && data.description && data.description.map((des, i) => <p key={i}>{des}</p>)}
         </div>
       </div>
     </Modal>

@@ -1,26 +1,34 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portfolioSlider } from "../sliderProps";
 import PortfolioModal from "./popup/PortfolioModal";
+// import tempData from '../../public/data.json'
+import Image from "next/image";
 import data from '../../public/data.json'
 const Portfolio = () => {
 
 
   const [modal, setModal] = useState(false);
+  const [activeData, setActiveData] = useState({});
+  const onClick = (value) => {
+    setModal(true);
+    setActiveData(data[value]);
+  };
 
-  
-  console.log(data)
-  let projects = data.projects.map((project) => (
-    <div key={project.id}>{project.name}</div>
-  ))
-  console.log(projects)
+  console.log(activeData)
+  console.log("data: ", typeof data)
+
+
+
+
   return (
     <Fragment>
-      <PortfolioModal open={modal} close={() => setModal(false)} />
+      <PortfolioModal open={modal} close={() => setModal(false)} data={activeData} />
       <div className="edrea_tm_section hidden animated" id="portfolio">
         <div className="section_inner">
           <div className="edrea_tm_portfolio swiper-section">
             <div className="edrea_tm_main_title">
+
               <h3>
                 Developer <span className="coloring">Portfolio</span>
               </h3>
@@ -28,88 +36,29 @@ const Portfolio = () => {
             <div className="portfolio_list gallery_zoom">
               <Swiper {...portfolioSlider} className="swiper-container">
                 <div className="swiper-wrapper">
-                
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>{data.projects[0].title}</h3>
-                        <span>Detail</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link portfolio_popup"
-                        href="#"
-                        onClick={() => setModal(true)}
+
+                 {data.map((project, i) => (
+                  <SwiperSlide className="swiper-slide" key={i}>
+                  <div className="list_inner">
+                    <div className="image">
+                      <img src="img/thumbs/1-1.jpg" alt="" />
+                      <div
+                        className="main"
+                        data-img-url={project.image_url}
                       />
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>{data.projects[1].title}</h3>
-                        <span>Detail</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link portfolio_popup"
-                        href="#"
-                        onClick={() => setModal(true)}
-                      />
+                    <div className="details">
+                      <h3>{project.title}</h3>
+                      <span>Details</span>
                     </div>
+                    <a
+                      className="edrea_tm_full_link portfolio_popup"
+                      href="#"
+                      onClick={() => onClick(i)}
+                    />
+                  </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>{data.projects[2].title}</h3>
-                        <span>Detail</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link portfolio_popup"
-                        href="#"
-                        onClick={() => setModal(true)}
-                      />
-                    </div>
-                  </SwiperSlide>
-                  
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>{data.projects[3].title}</h3>
-                        <span>Detail</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link portfolio_popup"
-                        href="#"
-                        onClick={() => setModal(true)}
-                      />
-                    </div>
-                  </SwiperSlide>
+                 ))}
                 </div>
                 <div className="edrea_tm_swiper_progress fill">
                   <div className="my_pagination_in">
@@ -137,7 +86,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </Swiper>
-              {projects}
+
             </div>
           </div>
         </div>
