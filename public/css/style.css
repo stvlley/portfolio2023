@@ -530,6 +530,7 @@ h6 {
   position: relative;
 }
 .edrea_tm_about .left .image img {
+  border-radius: 100px;
   position: relative;
   min-width: 100%;
   opacity: 0;
@@ -543,7 +544,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 1000px;
 }
 .edrea_tm_about .right {
   width: 60%;
@@ -1668,12 +1669,13 @@ h6 {
 }
 .edrea_tm_news .news_list .list_inner {
   width: 100%;
-  height: auto;
+  height: 250px;
   clear: both;
   float: left;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+
 }
 .edrea_tm_news .news_list .image {
   position: relative;
@@ -1707,6 +1709,7 @@ h6 {
 .edrea_tm_news .news_list .details {
   width: 100%;
   float: left;
+  height: 100%;
   background-color: #222;
   padding: 30px 20px 27px 20px;
 }

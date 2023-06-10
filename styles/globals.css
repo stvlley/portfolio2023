@@ -10,13 +10,13 @@
     z-index: 99;
   }
 }
-.edrea_tm_button .a {
-  text-transform: none;
-  font-weight: unset;
+.edrea_tm_button a {
+  text-transform: uppercase;
+  font-weight: none;
   text-decoration: none;
-  letter-spacing: none;
   height: unset;
   padding: 15px 40px;
+  letter-spacing: 3px;
 }
 
 .edrea_tm_mobile_menu,

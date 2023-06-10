@@ -8,7 +8,7 @@ const aboutData = {
   bithday: "December 24th",
   address: "Stafford, VA, USA",
   phn: "+77 022 155 02 02",
-  email: "contact@stephentalley.tech",
+  email: "stephentalleyjr@gmail.com",
   serviceLists: [
     "Website Development",
     "Digital Experience",
@@ -65,7 +65,7 @@ const About = () => {
             <div className="left">
               <div className="image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/profile.jpg" />
               </div>
             </div>
             <div className="right">

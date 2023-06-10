@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect  } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { newsSlider } from "../sliderProps";
 import NewsPopup from "./popup/NewsPopup";
@@ -69,10 +69,20 @@ const data = [
 const News = () => {
   const [modal, setModal] = useState(false);
   const [activeData, setActiveData] = useState({});
+  const [posts, setPosts] = useState([]);
   const onClick = (value) => {
     setModal(true);
     setActiveData(data[value]);
   };
+
+  useEffect(() => {
+     fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@stephentalleyjr')
+       .then((res) => res.json())
+       .then((data) => {
+         setPosts(data.items)
+       })
+   }, [])
+   console.log(posts)
 
   console.log("data: ",typeof data)
   return (
@@ -89,27 +99,29 @@ const News = () => {
             <div className="news_list">
               <Swiper {...newsSlider} className="swiper-container">
                 <div className="swiper-wrapper">
-                  {data.map((news, i) => (
+                  {posts.map((post, i) => (
                     <SwiperSlide className="swiper-slide" key={i}>
                       <div className="list_inner">
                         <div className="image">
-                          <img src="img/thumbs/4-3.jpg" alt="" />
-                          <div className="main" data-img-url={news.img} />
+                          {/* <img src="img/thumbs/4-3.jpg" alt="" />
+                          <div className="main" data-img-url={post.thumbnail} /> */}
                           <a
                             className="edrea_tm_full_link news_popup"
                             href="#"
-                            onClick={() => onClick(i)}
+                            // onClick={() => onClick(i)}
                           />
                         </div>
                         <div className="details">
                           <h3>
-                            <a href="#" onClick={() => onClick(i)}>
-                              {news.title}
+                            <a href={post.link} target="_blank" rel="noreferrer" >
+                              {post.title}
                             </a>
                           </h3>
                           <span>
-                            <a href="#" onClick={() => onClick(i)}>
-                              {news.tag}
+                            <a href={post.link} target="_blank" rel="noreferrer" >
+                              {post.categories.map((cat, i) => (
+                                <p key={i}>{cat}</p>
+                              ))}
                             </a>
                           </span>
                         </div>

@@ -41,7 +41,12 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide" key={i}>
                   <div className="list_inner">
                     <div className="image">
-                      <img src="img/thumbs/1-1.jpg" alt="" />
+                      <Image 
+                      blurDataURL={project.image_url}
+                      placeholder="blur"
+                      priority height={1000} width={1000} src="/img/thumbs/1-1.jpg" alt="" />
+                      
+                      
                       <div
                         className="main"
                         data-img-url={project.image_url}

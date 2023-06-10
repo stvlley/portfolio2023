@@ -1,4 +1,4 @@
-import { Fragment, useContext, useState } from "react";
+import { Fragment, useContext, useState} from "react";
 import { context } from "../context/context";
 
 const MobileHeader = () => {
@@ -6,11 +6,13 @@ const MobileHeader = () => {
   const navContext = useContext(context);
   const { nav, changeNav } = navContext;
 
+
   const activeNav = (value) => (value == nav ? "active" : "");
   const onClick = (value) => {
     setToggle(false);
     changeNav(value);
   };
+ 
 
   return (
     <Fragment>
@@ -23,9 +25,8 @@ const MobileHeader = () => {
           </div>
           <div className="trigger">
             <div
-              className={`hamburger hamburger--slider ${
-                toggle ? "is-active" : ""
-              }`}
+              className={`hamburger hamburger--slider ${toggle ? "is-active" : ""
+                }`}
             >
               <div className="hamburger-box" onClick={() => setToggle(!toggle)}>
                 <div className="hamburger-inner" />
@@ -55,7 +56,7 @@ const MobileHeader = () => {
               </li>
               <li className={activeNav("news")}>
                 <a href="#news" onClick={() => onClick("news")}>
-                  News
+                  Blog
                 </a>
               </li>
               <li className={activeNav("contact")}>

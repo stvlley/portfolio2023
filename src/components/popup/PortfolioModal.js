@@ -16,9 +16,7 @@ const PortfolioModal = ({ close, open, data }) => {
         </div>
         <div className="news_main_title">
           <h3>{data && data.title}</h3>
-          {/* <span>
-            <a href="#">{data && data.tag}</a>
-          </span> */}
+          {data && data.technologies && data.technologies.map((tech, i) => <p key={i}>{tech.name}</p>)}
           <div />
         </div>
         <div className="text">
