@@ -15,6 +15,7 @@ const Header = () => {
             <img src="img/logo.svg" alt="" />
           </a>
         </div>
+            <p>! UNDER CONSTRUCTION !</p>
         <div className="menu">
           <ul className="transition_link">
             <li className={activeNav("home")}>

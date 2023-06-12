@@ -1,10 +1,13 @@
 import { Fragment, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portfolioSlider } from "../sliderProps";
-import PortfolioModal from "./popup/PortfolioModal";
-// import tempData from '../../public/data.json'
+// import PortfolioModal from "./popup/PortfolioModal";
 import Image from "next/image";
 import data from '../../public/data.json'
+import dynamic from "next/dynamic";
+const PortfolioModal = dynamic(() => import('./popup/PortfolioModal'))
+
+
 const Portfolio = () => {
 
 
@@ -41,10 +44,11 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide" key={i}>
                   <div className="list_inner">
                     <div className="image">
-                      <Image 
-                      blurDataURL={project.image_url}
+                      <Image
+                      className="" 
+                      blurDataURL="/img/logo.svg"
                       placeholder="blur"
-                      priority height={1000} width={1000} src="/img/thumbs/1-1.jpg" alt="" />
+                      priority height={1000} width={1000} src="/img/logo.svg" alt="" />
                       
                       
                       <div

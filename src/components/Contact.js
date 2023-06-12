@@ -77,7 +77,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="stephentalleyjr@gmail.com">stephentalleyjr@gmail.com</a>
+                      <a href="#">stephentalleyjr@gmail.com</a>
                     </span>
                   </div>
                 </li>

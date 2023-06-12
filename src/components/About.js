@@ -1,6 +1,7 @@
 import { Fragment, useState } from "react";
 import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
+import Image from "next/image";
 
 const aboutData = {
   firstName: "Stephen",
@@ -10,7 +11,7 @@ const aboutData = {
   phn: "+77 022 155 02 02",
   email: "stephentalleyjr@gmail.com",
   serviceLists: [
-    "Website Development",
+    "Next.js",
     "Digital Experience",
     "Content Marketing",
     "Social Media Design",
@@ -35,17 +36,21 @@ const aboutData = {
   ],
   working: [
     {
-      year: "2018 - running",
-      company: "Envato Elements",
-      deg: "Exclusive Author",
+      year: "2023 - now ",
+      company: "Deutsche Post DHL Group",
+      deg: "Operations Systems Analyst II",
     },
-    { year: "2015 - 2018", company: "Avo Corporation", deg: "Content Manager" },
-    { year: "2012 - 2015", company: "FC Barcelona", deg: "Football Player" },
+    { year: "2020 - 2023", company: "Telos Digital", deg: "Software Engineer" },
+    { year: "2015 - 2019", company: "All Trade Contruction", deg: "Web Developer, Marketing Manager" },
   ],
   partnersLogos: [
     "img/partners/1.png",
     "img/partners/2.png",
     "img/partners/3.png",
+    "img/partners/4.png",
+    "img/partners/4.png",
+    "img/partners/4.png",
+    "img/partners/4.png",
     "img/partners/4.png",
   ],
 };
@@ -64,7 +69,7 @@ const About = () => {
           <div className="edrea_tm_about">
             <div className="left">
               <div className="image">
-                <img src="img/thumbs/1-1.jpg" alt="" />
+                <Image height={1000} width={1000} priority src="/img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="img/profile.jpg" />
               </div>
             </div>

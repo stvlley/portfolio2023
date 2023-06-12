@@ -530,10 +530,10 @@ h6 {
   position: relative;
 }
 .edrea_tm_about .left .image img {
-  border-radius: 100px;
   position: relative;
   min-width: 100%;
   opacity: 0;
+  
 }
 .edrea_tm_about .left .image .main {
   position: absolute;
@@ -761,7 +761,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 .edrea_tm_modalbox .about_popup_details .left .short {
   width: 100%;
@@ -1367,6 +1367,7 @@ h6 {
   clear: both;
   float: left;
   padding-top: 60px;
+
 }
 .edrea_tm_portfolio .portfolio_list .list_inner {
   width: 100%;
@@ -1376,15 +1377,17 @@ h6 {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+  background-image: url('/public/img/logo.svg');
 }
 .edrea_tm_portfolio .portfolio_list .image {
   position: relative;
   overflow: hidden;
+  background-color: #ccc;
 }
 .edrea_tm_portfolio .portfolio_list .image img {
   position: relative;
   min-width: 100%;
-  opacity: 0;
+  /* opacity: 100; */
 }
 .edrea_tm_portfolio .portfolio_list .image .main {
   position: absolute;
@@ -1392,6 +1395,7 @@ h6 {
   bottom: 0px;
   left: 0px;
   right: 0px;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

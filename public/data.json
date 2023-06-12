@@ -98,5 +98,105 @@
             "icon_url": "https://example.com/icons/mongodb.png"
           }
         ]
+      },
+      {
+        
+        "id": 4,
+        "title": "HooBank",
+        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
+        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/banx_landing.svg",
+        "image_url_2": "https://example.com/project3.png",
+        "image_url_3": "https://example.com/project3.png",
+        "demo_url": "https://example.com/project3/demo",
+        "code_url": "https://github.com/your-username/project3",
+        "technologies": [
+          {
+            "name": "React",
+            "icon_url": "https://example.com/icons/react.png"
+          },
+          {
+            "name": "Node.js",
+            "icon_url": "https://example.com/icons/node.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon_url": "https://example.com/icons/mongodb.png"
+          }
+        ]
+      },
+      {
+        
+        "id": 4,
+        "title": "GPT-3",
+        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
+        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/gpt3.svg",
+        "image_url_2": "https://example.com/project3.png",
+        "image_url_3": "https://example.com/project3.png",
+        "demo_url": "https://example.com/project3/demo",
+        "code_url": "https://github.com/your-username/project3",
+        "technologies": [
+          {
+            "name": "React",
+            "icon_url": "https://example.com/icons/react.png"
+          },
+          {
+            "name": "Node.js",
+            "icon_url": "https://example.com/icons/node.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon_url": "https://example.com/icons/mongodb.png"
+          }
+        ]
+      },
+      {
+        
+        "id": 4,
+        "title": "Speed Digital Timeline",
+        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
+        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/speed_digital_timeline.svg",
+        "image_url_2": "https://example.com/project3.png",
+        "image_url_3": "https://example.com/project3.png",
+        "demo_url": "https://example.com/project3/demo",
+        "code_url": "https://github.com/your-username/project3",
+        "technologies": [
+          {
+            "name": "React",
+            "icon_url": "https://example.com/icons/react.png"
+          },
+          {
+            "name": "Node.js",
+            "icon_url": "https://example.com/icons/node.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon_url": "https://example.com/icons/mongodb.png"
+          }
+        ]
+      },
+      {
+        
+        "id": 4,
+        "title": "Gerich Restaurant",
+        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
+        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/gerich_resaurant_landing.svg",
+        "image_url_2": "https://example.com/project3.png",
+        "image_url_3": "https://example.com/project3.png",
+        "demo_url": "https://example.com/project3/demo",
+        "code_url": "https://github.com/your-username/project3",
+        "technologies": [
+          {
+            "name": "React",
+            "icon_url": "https://example.com/icons/react.png"
+          },
+          {
+            "name": "Node.js",
+            "icon_url": "https://example.com/icons/node.png"
+          },
+          {
+            "name": "MongoDB",
+            "icon_url": "https://example.com/icons/mongodb.png"
+          }
+        ]
       }
 ]

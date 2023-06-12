@@ -96,15 +96,38 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  Hello everybody! My name is <span>Stephen Talley.</span> I am a Software Engineer and Systems Analyst with 4+ years of professional IT experience and an extensive background in creating and executing innovative technical solutions for complex business challenges. Proficient in software development, systems analysis, and research and development (R&D), with a focus on driving operational efficiency and delivering high-quality deliverables. Committed to learning the latest tech and remaining programming language agnostic.
+                  Hello everybody! My name is <span>Stephen Talley.</span> I am a <span>Software Engineer</span> and <span>Systems Analyst</span> with 4+ years of professional IT experience and an extensive background in creating and executing innovative technical solutions for complex business challenges. Proficient in software development, systems and data analysis for conducting research and development (R&D), with a focus on driving operational efficiency and delivering high-quality deliverables. Committed to learning the latest tech and remaining programming language agnostic.
                 </p>
+              </div>
+            </div>
+            <div className="partners">
+              <div className="about_title">
+                <h3>
+                  <span>
+                    Programming <span className="coloring">Skills</span>
+                  </span>
+                </h3>
+              </div>
+              <div className="list">
+                <ul>
+                  {aboutData &&
+                    aboutData.partnersLogos &&
+                    aboutData.partnersLogos.map((logo, i) => (
+                      <li key={i}>
+                        <div className="list_inner">
+                          <img src={logo} alt="" />
+                          <a className="cavani_tm_full_link" href="#" />
+                        </div>
+                      </li>
+                    ))}
+                </ul>
               </div>
             </div>
             <div className="service">
               <div className="about_title">
                 <h3>
                   <span>
-                    Quality <span className="coloring">Services</span>
+                    Tech <span className="coloring">Experience</span>
                   </span>
                 </h3>
               </div>
@@ -120,7 +143,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </ul>
               </div>
             </div>
-            <div className="prog_skill">
+            {/* <div className="prog_skill">
               <div className="about_title">
                 <h3>
                   <span>
@@ -157,8 +180,36 @@ const AboutPopup = ({ open, close, aboutData }) => {
                     </div>
                   ))}
               </div>
+            </div> */}
+            <div className="timeline">
+              <div className="about_title">
+                <h3>
+                  <span>
+                    Professional <span className="coloring">Timeline</span>
+                  </span>
+                </h3>
+              </div>
+              <div className="list">
+                <ul>
+                  {aboutData &&
+                    aboutData.working &&
+                    aboutData.working.map((work, i) => (
+                      <li key={i}>
+                        <div className="list_inner">
+                          <div className="time">
+                            <span>{work.year}</span>
+                          </div>
+                          <div className="place">
+                            <h3>{work.company}</h3>
+                            <span>{work.deg}</span>
+                          </div>
+                        </div>
+                      </li>
+                    ))}
+                </ul>
+              </div>
             </div>
-            <div className="lang_skill">
+            {/* <div className="lang_skill">
               <div className="about_title">
                 <h3>
                   <span>
@@ -192,8 +243,8 @@ const AboutPopup = ({ open, close, aboutData }) => {
                     ))}
                 </ul>
               </div>
-            </div>
-            <div className="timeline">
+            </div> */}
+            {/* <div className="timeline">
               <div className="about_title">
                 <h3>
                   <span>
@@ -220,58 +271,9 @@ const AboutPopup = ({ open, close, aboutData }) => {
                     ))}
                 </ul>
               </div>
-            </div>
-            <div className="timeline">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    Working <span className="coloring">Timeline</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list">
-                <ul>
-                  {aboutData &&
-                    aboutData.working &&
-                    aboutData.working.map((work, i) => (
-                      <li key={i}>
-                        <div className="list_inner">
-                          <div className="time">
-                            <span>{work.year}</span>
-                          </div>
-                          <div className="place">
-                            <h3>{work.company}</h3>
-                            <span>{work.deg}</span>
-                          </div>
-                        </div>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </div>
-            <div className="partners">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    My <span className="coloring">Partners</span>
-                  </span>
-                </h3>
-              </div>
-              <div className="list">
-                <ul>
-                  {aboutData &&
-                    aboutData.partnersLogos &&
-                    aboutData.partnersLogos.map((logo, i) => (
-                      <li key={i}>
-                        <div className="list_inner">
-                          <img src={logo} alt="" />
-                          <a className="cavani_tm_full_link" href="#" />
-                        </div>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </div>
+            </div> */}
+            
+            
             <div className="testimonial">
               <div className="about_title">
                 <h3>
