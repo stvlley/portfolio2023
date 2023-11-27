@@ -28,7 +28,7 @@ const Settings = () => {
   return (
     <div className={`edrea_tm_settings ${toggle ? "opened" : ""}`}>
       {/* to show hidden setting button remove slash in className */}
-      <div className="ico/n">
+      <div className="ic/on">
         <img className="svg" src="img/setting.svg" alt="" />
         <a className="link" href="#" onClick={() => setToggle(!toggle)} />
       </div>

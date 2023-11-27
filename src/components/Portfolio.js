@@ -45,10 +45,15 @@ const Portfolio = () => {
                   <div className="list_inner">
                     <div className="image">
                       <Image
+                      // sizes="(min-height: 300px) 100vw, 600px"
                       className="" 
                       blurDataURL="/img/logo.svg"
                       placeholder="blur"
-                      priority height={1000} width={1000} src="/img/logo.svg" alt="" />
+                      priority 
+                      // layout="fill"
+                      height={1000} 
+                      width={1000} 
+                      src="/img/logo.svg" alt="" />
                       
                       
                       <div

@@ -4,10 +4,10 @@
         "id": 1,
         "title": "Simple Saying Tees",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/simple_saying_tees_mockup_1.svg",
+        "image_url": "img/portfolio/simple_saying_tees.jpg",
         "image_url_2": "https://example.com/project1.png",
         "image_url_3": "https://example.com/project1.png",
-        "demo_url": "https://example.com/project1/demo",
+        "demo_url": "https://simplesayingtees.vercel.app/",
         "code_url": "https://github.com/your-username/project1",
         "technologies": [
           {
@@ -29,10 +29,10 @@
         "id": 2,
         "title": "Fine Line",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/fine_line_mockup_1.svg",
+        "image_url": "img/portfolio/fine_line.jpg",
         "image_url_2": "https://example.com/project2.png",
         "image_url_3": "https://example.com/project2.png",
-        "demo_url": "https://example.com/project2/demo",
+        "demo_url": "https://fineline.vercel.app/post/nextjs",
         "code_url": "https://github.com/your-username/project2",
         "technologies": [
           {
@@ -54,10 +54,10 @@
         "id": 3,
         "title": "BatDash",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/bat_dash_mockup_1.svg",
+        "image_url": "img/portfolio/bat_dash.jpg",
         "image_url_2": "https://example.com/project3.png",
         "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://example.com/project3/demo",
+        "demo_url": "https://batman-dashboard.vercel.app/",
         "code_url": "https://github.com/your-username/project3",
         "technologies": [
           {
@@ -79,10 +79,10 @@
         "id": 4,
         "title": "Personal Portfolio v2",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/portfolio_v2_1.svg",
+        "image_url": "img/portfolio/portfolio_v2.jpg",
         "image_url_2": "https://example.com/project3.png",
         "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://example.com/project3/demo",
+        "demo_url": "https://portfolio-2-d171r5lf6-stephentalleyjr-gmailcom.vercel.app/",
         "code_url": "https://github.com/your-username/project3",
         "technologies": [
           {
@@ -104,10 +104,10 @@
         "id": 4,
         "title": "HooBank",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/banx_landing.svg",
+        "image_url": "img/portfolio/banx_landing.jpg",
         "image_url_2": "https://example.com/project3.png",
         "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://example.com/project3/demo",
+        "demo_url": "https://banx-app.vercel.app/",
         "code_url": "https://github.com/your-username/project3",
         "technologies": [
           {
@@ -129,10 +129,10 @@
         "id": 4,
         "title": "GPT-3",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/gpt3.svg",
+        "image_url": "img/portfolio/gpt3.jpg",
         "image_url_2": "https://example.com/project3.png",
         "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://example.com/project3/demo",
+        "demo_url": "https://gpt-3-indol.vercel.app/",
         "code_url": "https://github.com/your-username/project3",
         "technologies": [
           {
@@ -154,10 +154,10 @@
         "id": 4,
         "title": "Speed Digital Timeline",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/speed_digital_timeline.svg",
+        "image_url": "img/portfolio/speed_digital.jpg",
         "image_url_2": "https://example.com/project3.png",
         "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://example.com/project3/demo",
+        "demo_url": "https://speed-digital-timeline.vercel.app/",
         "code_url": "https://github.com/your-username/project3",
         "technologies": [
           {
@@ -179,10 +179,10 @@
         "id": 4,
         "title": "Gerich Restaurant",
         "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "https://portfolio2023images.nyc3.cdn.digitaloceanspaces.com/gerich_resaurant_landing.svg",
+        "image_url": "img/portfolio/gerich_restaurant.jpg",
         "image_url_2": "https://example.com/project3.png",
         "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://example.com/project3/demo",
+        "demo_url": "https://gerich-restaurant-red.vercel.app/",
         "code_url": "https://github.com/your-username/project3",
         "technologies": [
           {

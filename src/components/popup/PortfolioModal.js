@@ -2,7 +2,7 @@ import Modal from "./Modal";
 
 const PortfolioModal = ({ close, open, data }) => {
 
-  console.log("modal: ",data)
+  console.log("modal: ", data)
   return (
     <Modal open={open} close={close}>
       <div className="news_popup_details">
@@ -16,11 +16,18 @@ const PortfolioModal = ({ close, open, data }) => {
         </div>
         <div className="news_main_title">
           <h3>{data && data.title}</h3>
-          {data && data.technologies && data.technologies.map((tech, i) => <p key={i}>{tech.name}</p>)}
+          {data && data.technologies && data.technologies.map((tech, i) => <span key={i}>{tech.name}</span>)}
           <div />
         </div>
         <div className="text">
-          {data && data.description && data.description.map((des, i) => <p key={i}>{des}</p>)}
+          {data && data.description && data.description.map((des, i) => <h4 key={i}>{des}</h4>)}
+        </div>
+        <div className="edrea_tm_button">
+          <a
+          target="_blank" rel="noreferrer"
+          href={data.demo_url} >
+            Live
+          </a>
         </div>
       </div>
     </Modal>

@@ -59,7 +59,10 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-location" />
                     <span>
-                      <a href="#" className="href_location">
+                      <a 
+                      target="_blank" rel="noreferrer"
+                      href="https://www.google.com/maps/place/Stafford,+VA+22554/@38.4150875,-77.4185459,14z/data=!3m1!4b1!4m6!3m5!1s0x89b6ecf423266fb1:0x84cc6ce61f755145!8m2!3d38.4220687!4d-77.4083086!16zL20vMDQyZ256?entry=ttu"
+                      className="href_location">
                         Stafford, VA, USA
                       </a>
                     </span>
