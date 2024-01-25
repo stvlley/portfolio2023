@@ -92,7 +92,7 @@ const News = () => {
         <div className="section_inner">
           <div className="edrea_tm_news swiper-section">
             <div className="edrea_tm_main_title">
-              <h3>
+              <h3 className="small_screen">
                 Latest <span className="coloring">Blog Posts</span>
               </h3>
             </div>

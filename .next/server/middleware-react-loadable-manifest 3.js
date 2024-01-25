@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"../src/components/Portfolio.js -> ./popup/PortfolioModal":{"id":"../src/components/Portfolio.js -> ./popup/PortfolioModal","files":["static/chunks/src_components_popup_PortfolioModal_js.js"]}}

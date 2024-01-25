@@ -32,7 +32,7 @@ const Portfolio = () => {
           <div className="edrea_tm_portfolio swiper-section">
             <div className="edrea_tm_main_title">
 
-              <h3>
+              <h3 className="small_screen">
                 Developer <span className="coloring">Portfolio</span>
               </h3>
             </div>

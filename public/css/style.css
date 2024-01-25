@@ -2397,6 +2397,7 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+  
   .edrea_tm_home .name {
     font-size: 40px;
     margin-bottom: 14px;
@@ -2474,5 +2475,27 @@ h6 {
   }
   .edrea_tm_modalbox .news_popup_details .news_main_title {
     margin-bottom: 18px;
+  }
+}
+
+
+/* portfolio modal additional styles */
+
+.portfolio_button_container {
+  margin-top: 30px;
+}
+
+.skills_container {
+  padding-right: 10px;
+}
+
+.portfolio_title_container {
+  margin: 30px;
+}
+
+
+@media (max-height: 620px) {
+  .small_screen {
+    display: none;
   }
 }

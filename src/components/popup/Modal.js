@@ -21,3 +21,4 @@ const Modal = ({ open, close, children }) => {
   );
 };
 export default Modal;
+
