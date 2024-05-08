@@ -96,7 +96,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="img/about/stephen_talley_software_engineer.docx" download>
+              <a href="img/about/stephen_talley_resume_20240508.docx" download>
                 Download CV
               </a>
             </div>
