@@ -1,202 +1,210 @@
 [
+  {
+    "id": 1,
+    "title": "Simple Saying Tees",
+    "description": ["An e-commerce platform for custom t-shirts with inspirational quotes. Implemented responsive design, integrated payment gateway, and developed a user-friendly interface to enhance customer experience."],
+    "image_url": "img/portfolio/simple_saying_tees.jpg",
+    "image_url_2": "https://example.com/project1.png",
+    "image_url_3": "https://example.com/project1.png",
+    "demo_url": "https://simplesayingtees.vercel.app/",
+    "code_url": "https://github.com/your-username/project1",
+    "technologies": [
       {
-        
-        "id": 1,
-        "title": "Simple Saying Tees",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/simple_saying_tees.jpg",
-        "image_url_2": "https://example.com/project1.png",
-        "image_url_3": "https://example.com/project1.png",
-        "demo_url": "https://simplesayingtees.vercel.app/",
-        "code_url": "https://github.com/your-username/project1",
-        "technologies": [
-          {
-            "name": "HTML",
-            "icon_url": "https://example.com/icons/html.png"
-          },
-          {
-            "name": "CSS",
-            "icon_url": "https://example.com/icons/css.png"
-          },
-          {
-            "name": "JavaScript",
-            "icon_url": "https://example.com/icons/js.png"
-          }
-        ]
+        "name": "HTML",
+        "icon_url": "https://example.com/icons/html.png"
       },
       {
-        
-        "id": 2,
-        "title": "Fine Line",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/fine_line.jpg",
-        "image_url_2": "https://example.com/project2.png",
-        "image_url_3": "https://example.com/project2.png",
-        "demo_url": "https://fineline.vercel.app/post/nextjs",
-        "code_url": "https://github.com/your-username/project2",
-        "technologies": [
-          {
-            "name": "Python",
-            "icon_url": "https://example.com/icons/python.png"
-          },
-          {
-            "name": "Django",
-            "icon_url": "https://example.com/icons/django.png"
-          },
-          {
-            "name": "PostgreSQL",
-            "icon_url": "https://example.com/icons/postgresql.png"
-          }
-        ]
+        "name": "TailwindCSS",
+        "icon_url": "https://example.com/icons/tailwindcss.png"
       },
       {
-        
-        "id": 3,
-        "title": "BatDash",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/bat_dash.jpg",
-        "image_url_2": "https://example.com/project3.png",
-        "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://batman-dashboard.vercel.app/",
-        "code_url": "https://github.com/your-username/project3",
-        "technologies": [
-          {
-            "name": "React",
-            "icon_url": "https://example.com/icons/react.png"
-          },
-          {
-            "name": "Node.js",
-            "icon_url": "https://example.com/icons/node.png"
-          },
-          {
-            "name": "MongoDB",
-            "icon_url": "https://example.com/icons/mongodb.png"
-          }
-        ]
+        "name": "Next.js",
+        "icon_url": "https://example.com/icons/nextjs.png"
       },
       {
-        
-        "id": 4,
-        "title": "Personal Portfolio v2",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/portfolio_v2.jpg",
-        "image_url_2": "https://example.com/project3.png",
-        "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://portfolio-2-d171r5lf6-stephentalleyjr-gmailcom.vercel.app/",
-        "code_url": "https://github.com/your-username/project3",
-        "technologies": [
-          {
-            "name": "React",
-            "icon_url": "https://example.com/icons/react.png"
-          },
-          {
-            "name": "Node.js",
-            "icon_url": "https://example.com/icons/node.png"
-          },
-          {
-            "name": "MongoDB",
-            "icon_url": "https://example.com/icons/mongodb.png"
-          }
-        ]
+        "name": "Supabase",
+        "icon_url": "https://example.com/icons/supabase.png"
       },
       {
-        
-        "id": 4,
-        "title": "HooBank",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/banx_landing.jpg",
-        "image_url_2": "https://example.com/project3.png",
-        "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://banx-app.vercel.app/",
-        "code_url": "https://github.com/your-username/project3",
-        "technologies": [
-          {
-            "name": "React",
-            "icon_url": "https://example.com/icons/react.png"
-          },
-          {
-            "name": "Node.js",
-            "icon_url": "https://example.com/icons/node.png"
-          },
-          {
-            "name": "MongoDB",
-            "icon_url": "https://example.com/icons/mongodb.png"
-          }
-        ]
+        "name": "PostgreSQL",
+        "icon_url": "https://example.com/icons/postgresql.png"
       },
       {
-        
-        "id": 4,
-        "title": "GPT-3",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/gpt3.jpg",
-        "image_url_2": "https://example.com/project3.png",
-        "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://gpt-3-indol.vercel.app/",
-        "code_url": "https://github.com/your-username/project3",
-        "technologies": [
-          {
-            "name": "React",
-            "icon_url": "https://example.com/icons/react.png"
-          },
-          {
-            "name": "Node.js",
-            "icon_url": "https://example.com/icons/node.png"
-          },
-          {
-            "name": "MongoDB",
-            "icon_url": "https://example.com/icons/mongodb.png"
-          }
-        ]
-      },
-      {
-        
-        "id": 4,
-        "title": "Speed Digital Timeline",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/speed_digital.jpg",
-        "image_url_2": "https://example.com/project3.png",
-        "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://speed-digital-timeline.vercel.app/",
-        "code_url": "https://github.com/your-username/project3",
-        "technologies": [
-          {
-            "name": "React",
-            "icon_url": "https://example.com/icons/react.png"
-          },
-          {
-            "name": "Node.js",
-            "icon_url": "https://example.com/icons/node.png"
-          },
-          {
-            "name": "MongoDB",
-            "icon_url": "https://example.com/icons/mongodb.png"
-          }
-        ]
-      },
-      {
-        
-        "id": 4,
-        "title": "Gerich Restaurant",
-        "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet urna eget dolor feugiat aliquet. Duis sagittis elit in ex malesuada tincidunt."],
-        "image_url": "img/portfolio/gerich_restaurant.jpg",
-        "image_url_2": "https://example.com/project3.png",
-        "image_url_3": "https://example.com/project3.png",
-        "demo_url": "https://gerich-restaurant-red.vercel.app/",
-        "code_url": "https://github.com/your-username/project3",
-        "technologies": [
-          {
-            "name": "React",
-            "icon_url": "https://example.com/icons/react.png"
-          },
-          {
-            "name": "Node.js",
-            "icon_url": "https://example.com/icons/node.png"
-          },
-          {
-            "name": "MongoDB",
-            "icon_url": "https://example.com/icons/mongodb.png"
-          }
-        ]
+        "name": "PayPal API",
+        "icon_url": "https://example.com/icons/paypal.png"
       }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Fine Line",
+    "description": ["A digital art gallery showcasing fine line drawings. Built with a focus on high performance, scalability, and smooth user interactions. Integrated advanced search features and user authentication. Implemented a headless CMS to publish articles through GraphCMS and allowed for non-auth users to comment with moderation through a publish feature provided by GraphCMS."],
+    "image_url": "img/portfolio/fine_line.jpg",
+    "image_url_2": "https://example.com/project2.png",
+    "image_url_3": "https://example.com/project2.png",
+    "demo_url": "https://fineline.vercel.app/post/nextjs",
+    "code_url": "https://github.com/your-username/project2",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "icon_url": "https://example.com/icons/nextjs.png"
+      },
+      {
+        "name": "TailwindCSS",
+        "icon_url": "https://example.com/icons/tailwindcss.png"
+      },
+      {
+        "name": "GraphQL",
+        "icon_url": "https://example.com/icons/graphql.png"
+      },
+      {
+        "name": "GraphCMS",
+        "icon_url": "https://example.com/icons/graphcms.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "BatDash",
+    "description": ["A data aggregation tool to visualize complex data sets using Syncfusion. This project will be coupled with a backend using Node.js and the Austin, Texas crime report data API in the next sprint. Stay tuned."],
+    "image_url": "img/portfolio/bat_dash.jpg",
+    "image_url_2": "https://example.com/project3.png",
+    "image_url_3": "https://example.com/project3.png",
+    "demo_url": "https://batman-dashboard.vercel.app/",
+    "code_url": "https://github.com/your-username/project3",
+    "technologies": [
+      {
+        "name": "React",
+        "icon_url": "https://example.com/icons/react.png"
+      },
+      {
+        "name": "Node.js",
+        "icon_url": "https://example.com/icons/node.png"
+      },
+      {
+        "name": "Syncfusion",
+        "icon_url": "https://example.com/icons/syncfusion.png"
+      },
+      {
+        "name": "Austin Crime Report API",
+        "icon_url": "https://example.com/icons/austincrime.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Personal Portfolio v2",
+    "description": ["A comprehensive personal portfolio website designed to showcase projects and skills with a focus on data analytics and operational insights. Features responsive design, smooth animations, and an intuitive user interface to effectively highlight professional experience and achievements."],
+    "image_url": "img/portfolio/portfolio_v2.jpg",
+    "image_url_2": "https://example.com/project3.png",
+    "image_url_3": "https://example.com/project3.png",
+    "demo_url": "https://portfolio-2-d171r5lf6-stephentalleyjr-gmailcom.vercel.app/",
+    "code_url": "https://github.com/your-username/project3",
+    "technologies": [
+      {
+        "name": "React",
+        "icon_url": "https://example.com/icons/react.png"
+      },
+      {
+        "name": "Node.js",
+        "icon_url": "https://example.com/icons/node.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon_url": "https://example.com/icons/mongodb.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "HooBank",
+    "description": ["A financial management application designed to help users track their spending and savings. Featured interactive graphs, budget planning tools, and secure transaction management."],
+    "image_url": "img/portfolio/banx_landing.jpg",
+    "image_url_2": "https://example.com/project3.png",
+    "image_url_3": "https://example.com/project3.png",
+    "demo_url": "https://banx-app.vercel.app/",
+    "code_url": "https://github.com/your-username/project3",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon_url": "https://example.com/icons/html.png"
+      },
+      {
+        "name": "CSS",
+        "icon_url": "https://example.com/icons/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon_url": "https://example.com/icons/js.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "GPT-3",
+    "description": ["A conversational AI chatbot leveraging the power of OpenAI's GPT-3. Developed to provide intelligent responses and perform various tasks based on user input."],
+    "image_url": "img/portfolio/gpt3.jpg",
+    "image_url_2": "https://example.com/project3.png",
+    "image_url_3": "https://example.com/project3.png",
+    "demo_url": "https://gpt-3-indol.vercel.app/",
+    "code_url": "https://github.com/your-username/project3",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon_url": "https://example.com/icons/html.png"
+      },
+      {
+        "name": "CSS",
+        "icon_url": "https://example.com/icons/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon_url": "https://example.com/icons/js.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Speed Digital Timeline",
+    "description": ["An interactive timeline for visualizing the digital transformation journey of an organization. Implemented dynamic data visualization and ensured compatibility across multiple devices."],
+    "image_url": "img/portfolio/speed_digital.jpg",
+    "image_url_2": "https://example.com/project3.png",
+    "image_url_3": "https://example.com/project3.png",
+    "demo_url": "https://speed-digital-timeline.vercel.app/",
+    "code_url": "https://github.com/your-username/project3",
+    "technologies": [
+      {
+        "name": "React",
+        "icon_url": "https://example.com/icons/react.png"
+      },
+      {
+        "name": "TailwindCSS",
+        "icon_url": "https://example.com/icons/tailwindcss.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Gerich Restaurant",
+    "description": ["A restaurant website featuring an online menu, reservation system, and customer reviews. Focused on providing an elegant design and seamless user experience for visitors."],
+    "image_url": "img/portfolio/gerich_restaurant.jpg",
+    "image_url_2": "https://example.com/project3.png",
+    "image_url_3": "https://example.com/project3.png",
+    "demo_url": "https://gerich-restaurant-red.vercel.app/",
+    "code_url": "https://github.com/your-username/project3",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon_url": "https://example.com/icons/html.png"
+      },
+      {
+        "name": "CSS",
+        "icon_url": "https://example.com/icons/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon_url": "https://example.com/icons/js.png"
+      }
+    ]
+  }
 ]
