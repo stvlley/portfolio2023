@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 
 /*
 /*	Copyright (c) 2022 Marketify
@@ -2499,3 +2499,8 @@ h6 {
     display: none;
   }
 }
+  .coloring-hero-text{
+    background: linear-gradient(to right, #3d5c58, #569b93); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+  }
